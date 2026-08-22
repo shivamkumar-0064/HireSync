@@ -479,12 +479,6 @@ The Power BI dashboard brings these insights together in a single view, allowing
 
 HireSync turns recruitment data into actionable insights that can help organizations understand their hiring funnel, identify bottlenecks, and improve recruitment efficiency.
 
-## 📷 Dashboard Preview
-
-Add your final Power BI dashboard screenshot here:
-
-![HireSync Recruitment Analytics Dashboard](images/hiresync-dashboard.png.png)
-
 Recommended GitHub structure:
 
 HireSync/
