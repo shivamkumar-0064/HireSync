@@ -38,7 +38,7 @@ Data Generation
 
 The dataset used in this project is synthetic, generated using the Python Faker library to simulate realistic recruitment data across employers, jobs, candidates, applications, and application stage history. No real personal or company data is used anywhere in this project.
 
-📓 Notebook: HireSync Data Generation – Google Colab
+**Notebook:** [HireSync Data Generation – Google Colab](https://colab.research.google.com/drive/1bo0rVe5xUFa6w6_AXtN8KqiioMwZpIA1)
 
 The complete project was developed in five phases:
 
