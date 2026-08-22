@@ -34,6 +34,11 @@ In short, the goal is to help recruitment teams answer:
 Where are candidates dropping out, how efficiently are employers hiring, and where can the recruitment process be improved?
 
 ## 🏗️ Project Workflow
+Data Generation
+
+The dataset used in this project is synthetic, generated using the Python Faker library to simulate realistic recruitment data across employers, jobs, candidates, applications, and application stage history. No real personal or company data is used anywhere in this project.
+
+📓 Notebook: HireSync Data Generation – Google Colab
 
 The complete project was developed in five phases:
 
