@@ -1,4 +1,4 @@
-HireSync — Recruitment Analytics & Hiring Funnel Dashboard
+## HireSync — Recruitment Analytics & Hiring Funnel Dashboard
 Project Overview
 
 HireSync is a recruitment analytics project designed to analyze the hiring pipeline from application to successful hire.
@@ -13,7 +13,7 @@ The project uses MySQL for data storage and SQL analysis and Microsoft Power BI 
 
 The simulated dataset was generated to represent a realistic recruitment environment and can later be replaced with live recruitment data.
 
-🎯 Project Objective
+## 🎯 Project Objective
 
 The main objective of HireSync is to turn recruitment data into actionable business insights.
 
@@ -33,7 +33,7 @@ In short, the goal is to help recruitment teams answer:
 
 Where are candidates dropping out, how efficiently are employers hiring, and where can the recruitment process be improved?
 
-🏗️ Project Workflow
+## 🏗️ Project Workflow
 
 The complete project was developed in five phases:
 
@@ -51,7 +51,7 @@ Power BI Dashboard
        ↓
 Phase 5
 Business Summary & Insights
-🗂️ Database Structure
+## 🗂️ Database Structure
 
 The HireSync database contains five main tables:
 
@@ -81,7 +81,8 @@ jobs	Stores job postings
 candidates	Stores candidate information
 applications	Records candidate applications
 application_stage_history	Tracks candidate movement through recruitment stages
-📊 Recruitment Funnel
+
+## 📊 Recruitment Funnel
 
 The recruitment process is analyzed through the following stages:
 
@@ -104,7 +105,8 @@ Stage-level conversion
 Drop-offs
 Hiring performance
 Time between recruitment stages
-🛠️ Technologies Used
+
+## 🛠️ Technologies Used
 Database
 MySQL
 Data Generation
@@ -129,7 +131,7 @@ Funnel Chart
 Line Chart
 Bar Chart
 Table Visual
-📌 Key Business Questions
+## 📌 Key Business Questions
 
 The SQL analysis was designed around real recruitment questions.
 
@@ -189,7 +191,7 @@ Average Time to Hire
 
 This helps identify employers with stronger or weaker recruitment performance.
 
-📈 Power BI Dashboard
+## 📈 Power BI Dashboard
 
 The final HireSync dashboard was developed in Microsoft Power BI.
 
@@ -216,7 +218,7 @@ Employer Performance Table
 
 Provides a detailed employer-level comparison.
 
-📊 Dashboard KPIs
+## 📊 Dashboard KPIs
 
 Based on the simulated dataset:
 
@@ -225,7 +227,8 @@ Total Applications	778
 Total Hires	225
 Hiring Conversion Rate	28.92%
 Average Time to Hire	21.42 days
-🏢 Employer Performance
+
+## 🏢 Employer Performance
 
 The employer analysis provides several useful findings.
 
@@ -256,7 +259,7 @@ Average Time to Hire: 17.89 days
 
 These comparisons demonstrate why looking only at total hires is not enough. An employer can have fewer applications but still have a strong conversion rate or faster hiring cycle.
 
-🔎 Key Insights
+## 🔎 Key Insights
 1. Overall Hiring Performance
 
 The simulated recruitment system contains:
@@ -311,7 +314,7 @@ Average time to hire
 
 For example, Vega-Wolfe records the highest number of hires, while Duran-Torres records the highest hiring conversion rate among the employers shown in the dashboard.
 
-💼 Business Use Case
+## 💼 Business Use Case
 
 HireSync can help recruitment teams monitor the complete hiring pipeline from application to hire.
 
@@ -333,7 +336,7 @@ Business Managers
 
 To compare employer-level recruitment performance and identify areas for improvement.
 
-🚀 Real-World Applications
+## 🚀 Real-World Applications
 
 The same analytical framework can be used in real recruitment environments for:
 
@@ -348,7 +351,7 @@ Hiring process optimization
 
 Once live recruitment data is available, the same SQL queries and Power BI dashboard can be connected to the production data pipeline.
 
-🧮 Important DAX Measures
+## 🧮 Important DAX Measures
 
 Some of the Power BI measures used in the dashboard include:
 
@@ -380,7 +383,7 @@ CALCULATE(
     ),
     'hiresync application_stage_history'[stage] = "Hired"
 )
-📁 Project Files
+## 📁 Project Files
 
 The project data is organized into the following CSV files:
 
@@ -395,7 +398,7 @@ HireSync_Final_Data/
 
 The database contains the corresponding MySQL tables used for analysis.
 
-🔄 Data Generation
+## 🔄 Data Generation
 
 Because live recruitment data was not available for the project, simulated recruitment data was generated using Python Faker.
 
@@ -409,7 +412,7 @@ Recruitment stage history
 
 This allowed the complete analytical workflow to be developed before real data becomes available.
 
-📌 Project Outcome
+## 📌 Project Outcome
 
 The project successfully demonstrates a complete data analytics workflow:
 
@@ -431,7 +434,7 @@ Business Insights
 
 The project therefore demonstrates both technical data analysis skills and the ability to translate data into business-oriented insights.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 The current project can be extended further by:
 
@@ -446,7 +449,7 @@ Adding recruitment cost metrics
 Adding predictive candidate drop-off analysis
 Adding Power BI drill-through pages
 Adding real-time recruitment monitoring
-🎓 What I Learned
+##🎓 What I Learned
 
 Through this project, I gained practical experience in:
 
@@ -464,7 +467,7 @@ Converting analytical results into business insights
 
 Most importantly, I learned how to move from raw data → analysis → visualization → business decision-making.
 
-📝 Project Summary
+##📝 Project Summary
 
 HireSync demonstrates how data analytics can be applied to recruitment operations.
 
@@ -476,7 +479,7 @@ The Power BI dashboard brings these insights together in a single view, allowing
 
 HireSync turns recruitment data into actionable insights that can help organizations understand their hiring funnel, identify bottlenecks, and improve recruitment efficiency.
 
-📷 Dashboard Preview
+## 📷 Dashboard Preview
 
 Add your final Power BI dashboard screenshot here:
 
@@ -504,7 +507,7 @@ HireSync/
 │   └── hiresync-dashboard.png
 │
 └── README.md
-▶️ How to Run the Project
+## ▶️ How to Run the Project
 1. Clone the repository
 git clone https://github.com/shivamkumar-0064/hiresync.git
 cd hiresync
@@ -545,7 +548,7 @@ HireSync_Dashboard.pbix
 
 Connect/refresh the data and explore the dashboard.
 
-📚 Skills Demonstrated
+## 📚 Skills Demonstrated
 SQL
 MySQL
 Power BI
@@ -558,7 +561,7 @@ KPI Development
 Business Analysis
 Data Cleaning
 Data Generation
-👨‍💻 Author
+## 👨‍💻 Author
 
 Shivam Kumar — Data Analyst
 
