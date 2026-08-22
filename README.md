@@ -483,7 +483,7 @@ HireSync turns recruitment data into actionable insights that can help organizat
 
 Add your final Power BI dashboard screenshot here:
 
-![HireSync Recruitment Analytics Dashboard](images/hiresync-dashboard.png)
+![HireSync Recruitment Analytics Dashboard](images/hiresync-dashboard.png.png)
 
 Recommended GitHub structure:
 
