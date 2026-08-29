@@ -9,7 +9,7 @@
 - [Project Overview](#-project-overview)
 - [Project Objective](#-project-objective)
 - [Project Workflow](#️-project-workflow)
-- [Week 2 Update — Expanded Dataset](#-week-2-update--expanded-dataset)
+- [Expanded Dataset](#-week-2-update--expanded-dataset)
 - [Database Structure](#️-database-structure)
 - [Recruitment Funnel](#-recruitment-funnel)
 - [Technologies Used](#️-technologies-used)
