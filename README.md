@@ -96,7 +96,7 @@ Week 2 — Expanded Dataset + Stage-Duration Analysis
 
 ---
 
-## 🆕 Week 2 Update — Expanded Dataset
+## 🆕 Expanded Dataset
 
 Week 2 focused on scaling the simulated dataset to something closer to a real hiring environment, and adding a proper *history* of every stage a candidate moved through — not just their latest status.
 
